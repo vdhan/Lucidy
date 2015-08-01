@@ -31,3 +31,13 @@
 .navbar-collapse {
 	text-align: center;
 }
+
+a.a-white {
+	text-decoration: none;
+	color: #fff;
+}
+
+a.a-black {
+	text-decoration: none;
+	color: #000;
+}
