@@ -14,3 +14,20 @@
 .mg-t-sm {
 	margin-top: 5px;
 }
+
+.mg-t-lg {
+	margin-top: 20px;
+}
+
+.size-x2 {
+	font-size: 2em;
+}
+
+.navbar-nav {
+	float: none;
+	display: inline-block;
+}
+
+.navbar-collapse {
+	text-align: center;
+}
