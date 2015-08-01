@@ -42,6 +42,11 @@ a.a-black {
 	color: #000;
 }
 
+.div-white {
+	text-decoration: none;
+	color: #fff;
+}
+
 .blur {
 	filter: blur(20px);
 }
