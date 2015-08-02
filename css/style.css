@@ -1,4 +1,4 @@
-html, body, .container-fluid {
+html, body, .container-fluid, .container {
 	height: 100%;
 }
 
@@ -9,6 +9,10 @@ html, body, .container-fluid {
 
 .w-full {
 	width: 100%;
+}
+
+.h-full {
+	height: 100%;
 }
 
 iframe {
@@ -58,4 +62,8 @@ a.a-black {
 
 .blur {
 	background: rgba(255, 255, 255, 0.4);
+}
+
+.border {
+	border: solid 1px red;
 }
