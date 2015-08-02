@@ -1,26 +1,37 @@
 $(document).ready(function() {
-	$('.hide-menu, #menu-vi').on('click', function() {
-		$('#menu-en').hide();
-		$('#menu-vi').hide();
-	});
-
 	$('#insert-en').on('click', function() {
-		$('#menu-en').show();
-		console.log($(this).val());
+		var audio = $('audio');
+		if($(this).val() == 'play')
+		{
+			if(audio.attr('src') != 'audio/English_comment.wav')
+			{
+				audio.attr('src', 'audio/English_comment.wav');
+			}
+			$(this).val('pause');
+			audio[0].play();
+		}
+		else
+		{
+			$(this).val('play');
+			audio[0].pause();
+		}
 	});
 
 	$('#insert-vi').on('click', function() {
-		$('#menu-vi').show();
-		console.log($(this).val());
-	});
-
-	$('#menu-en').on('click', function() {
-		var audio = 'audio/English_comment.wav';
-		var btn = $('#insert-en');
-
-		btn.removeClass('btn-insert').addClass('btn btn-sm');
-		btn.html('<i class="glyphicon glyphicon-play"></i>');
-		btn.val(audio);
-		$('#menu-en').hide();
+		var audio = $('audio');
+		if($(this).val() == 'play')
+		{
+			if(audio.attr('src') != 'audio/Vietnamese_comment.wav')
+			{
+				audio.attr('src', 'audio/Vietnamese_comment.wav');
+			}
+			$(this).val('pause');
+			audio[0].play();
+		}
+		else
+		{
+			$(this).val('play');
+			audio[0].pause();
+		}
 	});
 });
