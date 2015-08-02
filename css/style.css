@@ -18,7 +18,6 @@ html, body {
 iframe {
 	border: none;
 	width: 100%;
-	height: 100%;
 }
 
 .mg-t-md {
@@ -80,4 +79,8 @@ tbody {
 	top: 400px;
 	left: 10px;
 	z-index: 1;
+}
+
+.h-90 {
+	height: 90%;
 }
