@@ -67,3 +67,7 @@ a.a-black {
 .border {
 	border: solid 1px red;
 }
+
+tbody { 
+	height: 135px; overflow: auto;
+}
