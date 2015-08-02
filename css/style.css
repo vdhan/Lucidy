@@ -1,4 +1,4 @@
-html, body, .container-fluid, .container {
+html, body {
 	height: 100%;
 }
 
@@ -65,9 +65,46 @@ a.a-black {
 }
 
 .border {
-	border: solid 1px red;
+	border: solid 1px;
 }
 
-tbody { 
+tbody {
 	height: 135px; overflow: auto;
+}
+
+#insert-en {
+	position: absolute;
+	top: 200px;
+	left: 10px;
+}
+
+#insert-vi {
+	position: absolute;
+	top: 400px;
+	left: 10px;
+}
+
+.btn-insert {
+	z-index: 1;
+	border: none;
+	background: transparent;
+	cursor: auto;
+}
+
+#menu-en {
+	position: absolute;
+	top: 220px;
+	left: 30px;
+	z-index: 2;
+	background: #fff;
+	display: none;
+}
+
+#menu-vi {
+	position: absolute;
+	top: 420px;
+	left: 30px;
+	z-index: 2;
+	background: #fff;
+	display: none;
 }

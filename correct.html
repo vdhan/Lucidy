@@ -12,15 +12,27 @@
 </head>
 
 <body>
-<div class="container-fluid">
-	<div class="row border h-full">
-		<div class="col-xs-1 border h-full">
+<div class="container-fluid h-full">
+	<button type="button" id="insert-en" class="btn-insert" value="nil">
+		&nbsp;
+	</button>
+
+	<button type="button" id="insert-vi" class="btn-insert" value="nil">
+		&nbsp;
+	</button>
+
+	<span id="menu-en" class="border">English comment</span>
+	<span id="menu-vi" class="border">Vietnamese comment</span>
+
+	<div class="row h-full">
+		<div class="col-xs-1 hide-menu h-full">
 			&nbsp;
 		</div>
-		<div class="col-xs-10 no-pad border h-full">
+		<div class="col-xs-10 no-pad h-full">
 			<iframe src="https://docs.google.com/document/d/1_VA3fdDLJj65JBMcY3eyLF9JlB1rANMaGsKP4o_vNeo/edit"></iframe>
 		</div>
 	</div>
 </div>
+<script src="js/script.js"></script>
 </body>
 </html>
